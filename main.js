@@ -1,5 +1,5 @@
 
-// //Write a program that accepts a month number (between 1 and 12), then shows the number of days of that month. Leap years are excluded. Incorrect inputs must be taken into account.
+//Write a program that accepts a month number (between 1 and 12), then shows the number of days of that month. Leap years are excluded. Incorrect inputs must be taken into account.
  
 let month = '';
 while (month == '' || (month < 1) || (month > 12)){
@@ -45,7 +45,7 @@ if(month == 1){
    
 
 
-
+//JAVA2.COM TUTORIAL
 
 var correct = "AA";
 var guess = "";
@@ -61,7 +61,7 @@ while (guess != correct){
 
 
 
-
+//MULTIPLICATION TABLE
 let number = prompt("enter a number from 1 - 10")
 
 if (number < 1 || number > 10){
@@ -78,7 +78,7 @@ else{
 }
 
 
-
+//YESS OR NO GAME
 
 let answer1 = "yes"
 let answer2 = "no"
@@ -90,5 +90,24 @@ while (userInput != answer1 && userInput != answer2){//while userInput is not th
         alert("correct")
     }else{
         alert("thats not it")
+    }
+}
+
+//FIZZ BUZZ
+
+
+for(let num = 1; num <= 100; num++){
+     if ((num % 3 === 0) && (num % 5 === 0)){
+        console.log('FizzBuzz')
+    }
+    else if(num % 3 === 0){
+        console.log('Fizz');
+    }
+    else if(num % 5 === 0 && num % 3 !== 0){
+        console.log('Buzz')
+    }
+    
+    else{
+        console.log(num)
     }
 }
