@@ -8,6 +8,17 @@
 // Shows each array element using a for-of loop.
 
 let musketeers = ["Athos","Porthos","Aramis"]
+for(let i = 0; i < musketeers.length; i++){
+    console.log(musketeers[i])
+}
+musketeers.push("D\'Artagnan")
+
 musketeers.forEach(items => {
     console.log(items);
 })
+
+musketeers.splice(2,1)
+
+for (const knights of musketeers){
+    console.log(knights)
+}
