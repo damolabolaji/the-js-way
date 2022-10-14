@@ -23,9 +23,21 @@ for (const knights of musketeers){
     console.log(knights)
 }
 
+//SUM OF VALUES
 const values = [3, 11, 7, 2, 9, 10];
 sum = 0
 values.forEach(value => {
     sum += value
 })
 console.log(sum)
+
+//ARRAY MAXIMUM
+
+const valuesMax = [3, 11, 7, 2, 9, 10];
+max = 0
+valuesMax.forEach(item => {
+    if(item > max ){
+        max = item;
+    }
+})
+console.log(max)
