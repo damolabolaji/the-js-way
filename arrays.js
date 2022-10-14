@@ -7,3 +7,7 @@
 // Remove poor Aramis.
 // Shows each array element using a for-of loop.
 
+let musketeers = ["Athos","Porthos","Aramis"]
+musketeers.forEach(items => {
+    console.log(items);
+})
