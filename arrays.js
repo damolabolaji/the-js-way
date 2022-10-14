@@ -22,3 +22,10 @@ musketeers.splice(2,1)
 for (const knights of musketeers){
     console.log(knights)
 }
+
+const values = [3, 11, 7, 2, 9, 10];
+sum = 0
+values.forEach(value => {
+    sum += value
+})
+console.log(sum)
