@@ -24,6 +24,7 @@ for (const knights of musketeers){
 }
 
 //SUM OF VALUES
+//Write a program that creates the following array, then calculates and shows the sum of its values (42 in that case).//
 const values = [3, 11, 7, 2, 9, 10];
 sum = 0
 values.forEach(value => {
@@ -32,6 +33,7 @@ values.forEach(value => {
 console.log(sum)
 
 //ARRAY MAXIMUM
+//Write a program that creates the following array, then calculates and shows the array's maximum value.
 
 const valuesMax = [3, 11, 7, 2, 9, 10];
 max = 0
@@ -41,3 +43,19 @@ valuesMax.forEach(item => {
     }
 })
 console.log(max)
+
+//LIST OF WORDS
+//Write a program that asks the user for a word until the user types "stop". The program then shows each of these words, except "stop".
+
+let wordsArray = []
+
+let word = ''
+while(word != 'stop'){
+    word = prompt('type a word each time to create an array. type stop when you are done')
+    wordsArray.push(word);
+    
+}
+    console.log(wordsArray)
+
+
+
